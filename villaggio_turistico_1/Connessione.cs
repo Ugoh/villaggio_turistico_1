@@ -7,17 +7,31 @@ using System.Data.SqlClient;
 
 namespace Kone
 {
+    /// <summary>
+    /// Stabilisce connessione col DataBase
+    /// </summary>
     public class Connessione
     {
         private SqlConnection myConn;
 
+        /// <summary>
+        /// Crea la SqlConnection
+        /// </summary>
+        /// <param name="strConnessione">Stringa di connessione completa</param>
         public Connessione(string strConnessione)
         {
             myConn = new SqlConnection(strConnessione);
         }
 
+        /// <summary>
+        /// Ritorna la SqlConnection
+        /// </summary>
         public SqlConnection GetConnessione() => myConn;
 
+        /// <summary>
+        /// Apre la connessione
+        /// </summary>
+        /// <returns>Messaggio di errore ("ok" se tutto ok)</returns>
         public string Apri()
         {
             try
@@ -31,6 +45,9 @@ namespace Kone
             }
         }
 
+        /// <summary>
+        /// Chiude la connessione
+        /// </summary>
         public void Chiudi()
         {
             myConn.Close();
