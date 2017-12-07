@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace villaggio_turistico_1
+namespace villaggio_turistico_1.Forms
 {
-    public partial class Form1 : Form
+    public partial class FormAutenticazione : Form
     {
-        public Form1()
+        public FormAutenticazione()
         {
             InitializeComponent();
+        }
+
+        private void FormAutenticazione_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

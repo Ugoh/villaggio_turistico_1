@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using MySql.Data.MySqlClient;
 
-namespace ClassiVillaggioTuristico.db.Periodi
+namespace ClassiVillaggioTuristico.DB.Periodi
 {
     class Periodo
     {

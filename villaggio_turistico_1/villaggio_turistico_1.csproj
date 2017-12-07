@@ -48,20 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connessione.cs" />
+    <Compile Include="DB\Connessione.cs" />
     <Compile Include="DB\Alloggi\Alloggio.cs" />
     <Compile Include="DB\Periodi\Periodo.cs" />
     <Compile Include="DB\Servizi\Servizio.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\FormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAutenticazione.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAutenticazione.Designer.cs">
+      <DependentUpon>FormAutenticazione.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAutenticazione.resx">
+      <DependentUpon>FormAutenticazione.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

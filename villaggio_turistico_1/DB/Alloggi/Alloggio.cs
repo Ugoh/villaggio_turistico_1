@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using MySql.Data.MySqlClient;
 
-namespace ClassiVillaggioTuristico.db.Alloggi
+namespace ClassiVillaggioTuristico.DB.Alloggi
 {
     class Alloggio
     {

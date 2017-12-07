@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using MySql.Data.MySqlClient;
 
-namespace ClassiVillaggioTuristico.db.Servizi
+namespace ClassiVillaggioTuristico.DB.Servizi
 {
     class Servizio
     {

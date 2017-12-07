@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 
-namespace Kone
+namespace Kone.DB
 {
     /// <summary>
-    /// Stabilisce connessione col DataBase
+    /// Stabilisce connessione col DataBase -Godae
     /// </summary>
     public class Connessione
     {

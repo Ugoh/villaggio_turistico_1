@@ -14,12 +14,12 @@ namespace villaggio_turistico_1
         [STAThread]
         static void Main()
         {
-            Object conn = new object();
-
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(conn));
+
+            //
+
+            //robe
         }
     }
 }
